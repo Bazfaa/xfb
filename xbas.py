@@ -18,7 +18,7 @@ banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){
 {BLU}◢████◣░█████◣
 {BLU} ██░░░░░██░░█◤
 {BLU} ████◤░░█████◣  
-{BLU} ██░░░░░██░░██  {PUTIH)V.1
+{BLU} ██░░░░░██░░██ 
 {BLU} █◤░░░░░█████◤
 
 
