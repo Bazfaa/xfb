@@ -8,18 +8,19 @@ HIJAU = ('\x1b[1;92m')
 PUTIH = ('\x1b[1;97m')
 BIRU = ('\x1b[36;1m')
 COKLAT = ('\x1b[33;1m')
+BLU = ('\x1b[0;36m')
 
 # Banner
 banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
 
 
 
-{MERAH}╭╮▒╱▔▔▔▔╲▒╭╮
-{MERAH}╰╲╲▏▂╲╱▂▕╱╱╯
-{MERAH}▒▒▒▏▇▏▕▇▕▒▒▒  {PUTIH}•^_^
-{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒  {PUTIH}•^_^
-{MERAH}╭╱╱▒╋╋╋╋▒╲╲╮
-{MERAH}╰╯╯▒╲▂▂╱▒╰╰╯
+{BLU}◢████◣░█████◣
+{BLU} ██░░░░░██░░█◤
+{BLU} ████◤░░█████◣  
+{BLU} ██░░░░░██░░██  
+{BLU} █◤░░░░░█████◤
+
 
 {COKLAT} **********************************************************
 {BIRU}                Author : Baz Hengker Tzy                                                 
