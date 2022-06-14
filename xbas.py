@@ -8,7 +8,7 @@ HIJAU = ('\x1b[1;92m')
 PUTIH = ('\x1b[1;97m')
 BIRU = ('\x1b[36;1m')
 COKLAT = ('\x1b[33;1m')
-GREENLIGHT = ('\x1b[0;32m')
+BILU = ('\x1b[0;36m')
 # Banner
 banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
 
@@ -16,8 +16,8 @@ banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){
 
 {MERAH}╭╮▒╱▔▔▔▔╲▒╭╮
 {MERAH}╰╲╲▏▂╲╱▂▕╱╱╯
-{MERAH}▒▒▒▏▇▏▕▇▕▒▒▒  {GREENLIGHT}•mengubah cookie ke token•
-{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒  {GREENLIGHT}•tanpa check point & aman•
+{MERAH}▒▒▒▏▇▏▕▇▕▒▒▒  {BILU}•mengubah cookie ke token•
+{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒  {BILU}•tanpa check point & aman•
 {MERAH}╭╱╱▒╋╋╋╋▒╲╲╮
 {MERAH}╰╯╯▒╲▂▂╱▒╰╰╯
 
@@ -70,7 +70,7 @@ class convert:
           exit(f"{MERAH}.-.{MERAH} Token tidak ditemukan")
         else:
           for token in find:
-            print(f"\n{KUNING} {HIJAU}[Berhasil Mendapatkan Token]>{PUTIH} Token Kamu :{HIJAU} {token}")
+            print(f"\n{KUNING} {PUTIH}[Berhasil Mendapatkan Token]> :{HIJAU} {token}")
     except Exception as e:
       exit(f"{MERAH}.-{MERAH} {e}")
   def __dua__(self,cookie):
@@ -88,10 +88,10 @@ class convert:
           for y in find:
             response = r.get(f'https://web.facebook.com/adsmanager/manage/campaigns?act={y}&nav_source=no_referrer', headers = headers)
             token = re.search('(EAAB\w+)', response.text).group(1)
-            print(f"\n{KUNING} {HIJAU} [Berhasil Mendapatkan Token]>{PUTIH} Token Kamu :{HIJAU} {token}")
+            print(f"\n{KUNING} {PUTIH} [Berhasil Mendapatkan Token]> :{HIJAU} {token}")
     except Exception as e:
       exit(f"{MERAH}!.{MERAH} {e}")
       
 
 if __name__=='__main__':
-  os.system('python vv.py');convert()
+  os.system('git pull');convert()
