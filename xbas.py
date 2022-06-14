@@ -7,12 +7,8 @@ MERAH = ('\x1b[1;91m')
 HIJAU = ('\x1b[1;92m')
 PUTIH = ('\x1b[1;97m')
 # Banner
-banner = (f"""     {MERAH}({PUTIH}★SELAMAT DATANG★{MERAH}){PUTIH}
-{MERAH}︻︻︻︻︻︻︻︻︻︻︻︻︻
-{PUTIH}❬圖❭︼⸽圖⸽亼ཬ罒罒ཪ亼⸽圖⸽︼❬圖❭
-{MERAH}«⸦๏⸧»⸦⸧⦕ㄹㅁㄹㄹ⦖⸦⸧«⸦๏⸧»
-{PUTIH}❬圖❭︻⸽圖⸽亼ཬ罒罒ཪ亼⸽圖⸽︻❬圖❭
-{MERAH}︼︼︼︼︼︼︼︼︼︼︼︼︼
+banner = (f"""           {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
+{MERAH}╭╮▒╱▔▔▔▔╲▒╭╮ ╰╲╲▏▂╲╱▂▕╱╱╯ ▒▒▒▏▇▏▕▇▕▒▒▒ ▒▒▒╲▔▕▍▔╱▒▒▒ ╭╱╱▒╋╋╋╋▒╲╲╮ ╰╯╯▒╲▂▂╱▒╰╰╯
 
 {PUTIH} **********************************************************
 {HIJAU}                Author : Baz Tzy                                                 
@@ -76,7 +72,7 @@ class convert:
         respon = r.get('https://web.facebook.com/adsmanager?_rdc=1&_rdr', headers = headers)
         find = re.findall('act=(.*?)&nav_source', respon.text)
         if len(find) == 0:
-          exit(f"{MERAH}kontol.{MERAH} Token tidak ditemukan")
+          exit(f"{MERAH}eror.{MERAH} Token tidak ditemukan")
         else:
           for y in find:
             response = r.get(f'https://web.facebook.com/adsmanager/manage/campaigns?act={y}&nav_source=no_referrer', headers = headers)
