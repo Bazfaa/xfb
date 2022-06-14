@@ -18,13 +18,13 @@ banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){
 {BLU}◢████◣░█████◣
 {BLU} ██░░░░░██░░█◤
 {BLU} ████◤░░█████◣  
-{BLU} ██░░░░░██░░██  
+{BLU} ██░░░░░██░░██  {PUTIH)V.1
 {BLU} █◤░░░░░█████◤
 
 
 {COKLAT} **********************************************************
-{BIRU}                Author : Baz Hengker Tzy                                                 
-{BIRU}                Github : https://github.com/basari              
+{PUTIH}                Author : Baz Hengker Tzy                                                 
+{PUTIH}                Github : https://github.com/basari              
 {COKLAT} **********************************************************
 """)
 # Convert Cookie Ke Token
