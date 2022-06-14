@@ -6,6 +6,7 @@ KUNING = ('\x1b[1;93m')
 MERAH = ('\x1b[1;91m')
 HIJAU = ('\x1b[1;92m')
 PUTIH = ('\x1b[1;97m')
+BIRU = ('\x1b[36;1m')
 # Banner
 banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
 
@@ -19,8 +20,8 @@ banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){
 {MERAH}╰╯╯▒╲▂▂╱▒╰╰╯
 
 {PUTIH} **********************************************************
-{HIJAU}                Author : Baz Hengker Tzy                                                 
-{HIJAU}                Github : https://github.com/basari              
+{BIRU}                Author : Baz Hengker Tzy                                                 
+{BIRU}                Github : https://github.com/basari              
 {PUTIH} **********************************************************
 """)
 # Convert Cookie Ke Token
@@ -29,9 +30,9 @@ class convert:
   def __init__(self):
     os.system('clear')
     print(f"""{banner}
-{HIJAU}»1«{PUTIH} Mendapatkan Token EAAI {HIJAU}({MERAH}on{HIJAU}){MERAH}
-{HIJAU}»2«{PUTIH} Mendapatkan Token EAAB {HIJAU}({MERAH}on{HIJAU}){MERAH}
-{HIJAU}»3«{PUTIH} Mendapatkan Informasii {HIJAU}({MERAH}on{HIJAU}){MERAH}
+{HIJAU}»1«{PUTIH} Mendapatkan Token EAAI {HIJAU}({HIJAU}on{HIJAU}){HIJAU}
+{HIJAU}»2«{PUTIH} Mendapatkan Token EAAB {HIJAU}({HIJAU}on{HIJAU}){HIJAU}
+{HIJAU}»3«{PUTIH} Mendapatkan Informasii {HIJAU}({HIJAU}on{HIJAU}){HIJAU}
 {HIJAU}»4«{PUTIH} Hack Facebook {HIJAU}({MERAH}of{HIJAU}){MERAH}
 {HIJAU}»5«{PUTIH} Keluar {HIJAU}({MERAH}out{HIJAU}){MERAH}
    """)
