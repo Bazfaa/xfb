@@ -8,7 +8,7 @@ HIJAU = ('\x1b[1;92m')
 PUTIH = ('\x1b[1;97m')
 BIRU = ('\x1b[36;1m')
 COKLAT = ('\x1b[33;1m')
-BILU = ('\x1b[0;36m')
+BILU = ('\x1b33[0;36m')
 # Banner
 banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
 
@@ -16,8 +16,8 @@ banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){
 
 {MERAH}╭╮▒╱▔▔▔▔╲▒╭╮
 {MERAH}╰╲╲▏▂╲╱▂▕╱╱╯
-{MERAH}▒▒▒▏▇▏▕▇▕▒▒▒  {BILU}•mengubah cookie ke token•
-{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒  {BILU}•tanpa check point & aman•
+{MERAH}▒▒▒▏▇▏▕▇▕▒▒▒  {BILU}•^_^
+{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒  {BILU}•^_^
 {MERAH}╭╱╱▒╋╋╋╋▒╲╲╮
 {MERAH}╰╯╯▒╲▂▂╱▒╰╰╯
 
