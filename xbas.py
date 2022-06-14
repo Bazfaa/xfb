@@ -7,6 +7,8 @@ MERAH = ('\x1b[1;91m')
 HIJAU = ('\x1b[1;92m')
 PUTIH = ('\x1b[1;97m')
 BIRU = ('\x1b[36;1m')
+COKLAT = ('\x1b[33;1m')
+GREENLIGHT = ('\x1b[0;32m')
 # Banner
 banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
 
@@ -14,15 +16,15 @@ banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){
 
 {MERAH}╭╮▒╱▔▔▔▔╲▒╭╮
 {MERAH}╰╲╲▏▂╲╱▂▕╱╱╯
-{MERAH}▒▒▒▏▇▏▕▇▕▒▒▒  {PUTIH}•mengubah cookie ke token•
-{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒  {PUTIH}•tanpa check point & aman•
+{MERAH}▒▒▒▏▇▏▕▇▕▒▒▒  {GREENLIGHT}•mengubah cookie ke token•
+{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒  {GREENLIGHT}•tanpa check point & aman•
 {MERAH}╭╱╱▒╋╋╋╋▒╲╲╮
 {MERAH}╰╯╯▒╲▂▂╱▒╰╰╯
 
-{PUTIH} **********************************************************
+{COKLAT} **********************************************************
 {BIRU}                Author : Baz Hengker Tzy                                                 
 {BIRU}                Github : https://github.com/basari              
-{PUTIH} **********************************************************
+{COKLAT} **********************************************************
 """)
 # Convert Cookie Ke Token
 class convert:
