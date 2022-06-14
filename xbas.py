@@ -19,8 +19,8 @@ banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){
 {MERAH}╰╯╯▒╲▂▂╱▒╰╰╯
 
 {PUTIH} **********************************************************
-{HIJAU}                Author : Baz Tzy                                                 
-{HIJAU}                Github : https://github.com/bazfaa              
+{HIJAU}                Author : Baz Hengker Tzy                                                 
+{HIJAU}                Github : https://github.com/basari              
 {PUTIH} **********************************************************
 """)
 # Convert Cookie Ke Token
@@ -31,8 +31,8 @@ class convert:
     print(f"""{banner}
 {HIJAU}»1«{PUTIH} Mendapatkan Token EAAI {HIJAU}({MERAH}on{HIJAU}){MERAH}
 {HIJAU}»2«{PUTIH} Mendapatkan Token EAAB {HIJAU}({MERAH}on{HIJAU}){MERAH}
-{HIJAU}»3«{PUTIH} Info Selengkapnya {HIJAU}({MERAH}✓{HIJAU}){MERAH}
-{HIJAU}»4«{PUTIH} Hack Facebook {HIJAU}({MERAH}pro{HIJAU}){MERAH}
+{HIJAU}»3«{PUTIH} Mendapatkan Informasii {HIJAU}({MERAH}on{HIJAU}){MERAH}
+{HIJAU}»4«{PUTIH} Hack Facebook {HIJAU}({MERAH}of{HIJAU}){MERAH}
 {HIJAU}»5«{PUTIH} Keluar {HIJAU}({MERAH}out{HIJAU}){MERAH}
    """)
     masuk = input(f"{KUNING}.+.{PUTIH} Pilih :{HIJAU} ")
@@ -53,7 +53,7 @@ class convert:
     elif masuk == '4' or masuk == '04':
       exit()
     else:
-      exit(f"{MERAH}.-.{MERAH}$;")
+      exit(f"{MERAH}-{MERAH}ERROR NOT FOUND-")
   def __satu__(self,cookie):
     try:
       with requests.Session() as r:
