@@ -7,8 +7,13 @@ MERAH = ('\x1b[1;91m')
 HIJAU = ('\x1b[1;92m')
 PUTIH = ('\x1b[1;97m')
 # Banner
-banner = (f"""           {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
-{MERAH}╭╮▒╱▔▔▔▔╲▒╭╮ ╰╲╲▏▂╲╱▂▕╱╱╯ ▒▒▒▏▇▏▕▇▕▒▒▒ ▒▒▒╲▔▕▍▔╱▒▒▒ ╭╱╱▒╋╋╋╋▒╲╲╮ ╰╯╯▒╲▂▂╱▒╰╰╯
+banner = (f"""                                {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
+{MERAH}╭╮▒╱▔▔▔▔╲▒╭╮
+{MERAH}╰╲╲▏▂╲╱▂▕╱╱╯
+{MERAH}▒▒▒▏▇▏▕▇▕▒▒▒   {PUTIH}V1
+{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒
+{MERAH}╭╱╱▒╋╋╋╋▒╲╲╮
+{MERAH}╰╯╯▒╲▂▂╱▒╰╰╯
 
 {PUTIH} **********************************************************
 {HIJAU}                Author : Baz Tzy                                                 
