@@ -7,13 +7,14 @@ MERAH = ('\x1b[1;91m')
 HIJAU = ('\x1b[1;92m')
 PUTIH = ('\x1b[1;97m')
 # Banner
-banner = (f"""                      {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
+banner = (f"""                    {MERAH}({PUTIH}★ SELAMAT DATANG ★{MERAH}){PUTIH}
+
 
 
 {MERAH}╭╮▒╱▔▔▔▔╲▒╭╮
 {MERAH}╰╲╲▏▂╲╱▂▕╱╱╯
 {MERAH}▒▒▒▏▇▏▕▇▕▒▒▒  {PUTIH}•mengubah cookie ke token•
-{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒
+{MERAH}▒▒▒╲▔▕▍▔╱▒▒▒  {PUTIH}•tanpa check point & aman•
 {MERAH}╭╱╱▒╋╋╋╋▒╲╲╮
 {MERAH}╰╯╯▒╲▂▂╱▒╰╰╯
 
@@ -28,11 +29,11 @@ class convert:
   def __init__(self):
     os.system('clear')
     print(f"""{banner}
-{HIJAU}»1«{PUTIH} Mendapatkan Token EAAI
-{HIJAU}»2«{PUTIH} Mendapatkan Token EAAB
-{HIJAU}»3«{PUTIH} Info Selengkapnya 
+{HIJAU}»1«{PUTIH} Mendapatkan Token EAAI {HIJAU}({MERAH}on{HIJAU}){MERAH}
+{HIJAU}»2«{PUTIH} Mendapatkan Token EAAB {HIJAU}({MERAH}on{HIJAU}){MERAH}
+{HIJAU}»3«{PUTIH} Info Selengkapnya {HIJAU}({MERAH}✓{HIJAU}){MERAH}
 {HIJAU}»4«{PUTIH} Hack Facebook {HIJAU}({MERAH}pro{HIJAU}){MERAH}
-{HIJAU}»5«{PUTIH} Keluar
+{HIJAU}»5«{PUTIH} Keluar {HIJAU}({MERAH}out{HIJAU}){MERAH}
    """)
     masuk = input(f"{KUNING}.+.{PUTIH} Pilih :{HIJAU} ")
     if masuk == '1' or masuk == '01':
@@ -52,7 +53,7 @@ class convert:
     elif masuk == '4' or masuk == '04':
       exit()
     else:
-      exit(f"{MERAH}.-.{MERAH} EROR {PUTIH}NOT {MERAH}FOUND!!;")
+      exit(f"{MERAH}.-.{MERAH}$;")
   def __satu__(self,cookie):
     try:
       with requests.Session() as r:
